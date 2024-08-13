@@ -1,12 +1,14 @@
-
+import { Container,Box} from "@mui/material"
+import Nav from "./componets/Nav/Nav"
 
 function App() {
 
 
   return (
-    <>
-      <h1>Prueba</h1>
-    </>
+   <Container maxWidth='ls'>
+    <Nav/>
+   
+   </Container>
   )
 }
 
